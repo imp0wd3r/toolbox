@@ -1,0 +1,8 @@
+argparse
+bs4
+dnspython
+gevent
+prettytable
+pymongo
+requests
+scapy
