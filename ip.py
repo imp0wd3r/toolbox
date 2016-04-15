@@ -30,7 +30,7 @@ def main():
             answer = dns.resolver.query(args.host, 'A')
             for r in answer:
                 ip_list.append(r)
-        except dns.resolver.NXDOMAIN:
+        except:
             print '[-] Cannot resolve hostname'
 
     for ip in ip_list:
